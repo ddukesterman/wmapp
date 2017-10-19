@@ -1,0 +1,61 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="TVListItemName" parent="@android:style/TextAppearance.Material.Title">
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:textColor">@color/tv_list_item_title</item>
+        <item name="android:textSize">@dimen/tv_list_item_name_text_size</item>
+    </style>
+
+    <style name="TVListItemDesc" parent="@android:style/TextAppearance.Material.Body1">
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:textColor">@color/tv_list_item_desc</item>
+    </style>
+
+    <style name="TVListItemRating" parent="@android:style/TextAppearance.Material.Body1">
+        <item name="android:textColor">@color/tv_list_item_rating</item>
+    </style>
+
+    <style name="TVListItemPrice" parent="@android:style/TextAppearance.Material.Subhead">
+        <item name="android:textSize">@dimen/tv_list_item_price_text_size</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:textColor">@color/tv_list_item_price</item>
+    </style>
+
+    <style name="TVDetailItemName" parent="@android:style/TextAppearance.Material.Display1">
+        <item name="android:textColor">@color/tv_detail_item_title</item>
+        <item name="android:textSize">@dimen/tv_detail_item_name_text_size</item>
+    </style>
+
+    <style name="TVDetailItemRating" parent="@android:style/TextAppearance.Material.Title">
+        <item name="android:textColor">@color/tv_detail_item_rating</item>
+    </style>
+
+    <style name="TVDetailItemPrice" parent="@android:style/TextAppearance.Material.Title">
+        <item name="android:textColor">@color/tv_detail_item_price</item>
+    </style>
+
+    <style name="TVDetailItemInStock" parent="@android:style/TextAppearance.Material.Title">
+        <item name="android:textColor">@color/tv_detail_item_stock_green</item>
+    </style>
+
+    <style name="TVDetailItemDesc" parent="@android:style/TextAppearance.Material.Body1">
+        <item name="android:textColor">@color/tv_detail_item_desc</item>
+    </style>
+
+    <style name="AddToCartButton" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:colorButtonNormal">@color/price_color</item>
+        <item name="android:colorAccent">@color/colorAccent</item>
+    </style>
+
+</resources>

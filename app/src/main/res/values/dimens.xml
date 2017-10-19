@@ -1,0 +1,25 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="spacer_24">24dp</dimen>
+    <dimen name="spacer_16">16dp</dimen>
+    <dimen name="spacer_12">12dp</dimen>
+    <dimen name="spacer_8">8dp</dimen>
+    <dimen name="spacer_6">6dp</dimen>
+    <dimen name="spacer_4">4dp</dimen>
+
+    <dimen name="divider_thickness">1dp</dimen>
+
+    <dimen name="error_message_bg_text_size">20sp</dimen>
+
+    <dimen name="tv_list_item_image_width">120dp</dimen>
+    <dimen name="tv_list_item_text_horizontal_margin">@dimen/spacer_16</dimen>
+    <dimen name="tv_list_item_card_horizontal_spacing">@dimen/spacer_12</dimen>
+    <dimen name="tv_list_item_card_vertical_spacing">@dimen/spacer_6</dimen>
+    <dimen name="tv_list_item_image_height">160dp</dimen>
+    <dimen name="tv_list_item_name_text_size">16sp</dimen>
+    <dimen name="tv_list_item_price_text_size">18sp</dimen>
+
+    <dimen name="tv_detail_content_horizontal_margin">@dimen/spacer_24</dimen>
+    <dimen name="tv_detail_item_name_text_size">30sp</dimen>
+    <dimen name="tv_detail_item_image_height">300dp</dimen>
+</resources>

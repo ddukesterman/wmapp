@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#bebebe</color>
+
+    <color name="divider">#E0E0E0</color>
+
+    <color name="black_50">#80000000</color>
+    <color name="black_87">#dd000000</color>
+
+
+    <color name="price_color">#FFC107</color>
+
+    <!-- TV List Item -->
+    <color name="tv_list_item_title">@color/black_87</color>
+    <color name="tv_list_item_desc">@color/black_50</color>
+    <color name="tv_list_item_price">@color/price_color</color>
+    <color name="tv_list_item_rating">@color/black_50</color>
+
+    <!-- TV Detail Pager Item -->
+    <color name="tv_detail_item_title">@color/black_87</color>
+    <color name="tv_detail_item_desc">@color/black_50</color>
+    <color name="tv_detail_item_price">@color/price_color</color>
+    <color name="tv_detail_item_rating">@color/black_50</color>
+    <color name="tv_detail_item_stock_green">#00c853</color>
+    <color name="tv_detail_item_stock_gray">#bdbdbd</color>
+
+</resources>
